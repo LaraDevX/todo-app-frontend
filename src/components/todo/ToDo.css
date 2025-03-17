@@ -1,0 +1,84 @@
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+	border-radius: 15px;
+  padding: 8px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn-delete{
+	background-color:red;
+}
+.btn-show{
+	display: inline;
+	background-color: green;
+}
+.btn-edit:hover{
+	background: rgb(83, 83, 212);
+}
+.btn-show:hover{
+	background: rgb(111, 181, 7);
+}
+.btn-delete:hover {
+  background: #e02626;
+}
+.btn-close:hover{
+	background: rgb(83, 83, 212);
+}
+.btn-add:hover{
+	background-color: rgb(83, 83, 212);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th{
+	background-color: rgb(197, 196, 255);
+}
+th, td {
+	white-space: normal;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.error-message{
+	color:red;
+}
+.success-message{
+	color:rgb(70, 128, 0);
+}
+.btn-group{
+	display: flex;
+	gap:5px;
+}
+.modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #aaa;
+}
